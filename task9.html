@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-9</title>
+    <style>
+        .n1{
+            background-color: darkcyan;
+            height:40px;
+            width:40px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-right: 50px;
+        }
+        .n2{
+            background-color: blueviolet;
+            height:40px;
+            width:40px;
+            margin-bottom: 10px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .n3{
+            background-color: red;
+            height:40px;
+            width:40px;
+            margin-bottom: 10px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .n4{
+            background-color: darkslategray;
+            height:40px;
+            width:40px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .main{
+            border: 2px solid black;
+            height:500px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .content{
+            display: none;
+            position: absolute;
+            margin:30px;
+            margin-top: 0%;
+        }
+        button:hover .content{
+            display: inline-block;
+            font-size: small;
+
+
+        }
+        .flex{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="flex">
+            <button class="n1"><p class="content">i am button 1</p></button>
+            <h1>Hoverable sidenav buttons</h1>
+
+        </div>
+        
+    <button class="n2"><p class="content">i am button 2</p></button>
+    <button class="n3"><p class="content">i am button 3 </button>
+    <button class="n4"><p class="content">i am button 4</p></button>
+    </div>
+    
+</body>
+</html>

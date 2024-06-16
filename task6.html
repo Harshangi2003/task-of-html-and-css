@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+    <style>
+        .hi{
+            border-radius: 15px;
+            border-collapse: seperate;
+        }
+        .bi{
+            border-radius: 15px;
+            
+        }
+        .hello{
+            border:0px;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            border-spacing:20px;
+            
+        }
+        .same1{
+            
+            border-radius: 9px;
+            height:100px;
+            width:150px;
+            border:2px solid green;
+        }
+        .same3{
+            
+            height:100px;
+            width:150px;
+            border:2px solid green;
+        }
+        .same2{
+            height:100px;
+            width:150px;
+            border:2px solid green;
+            border-radius: 20px;
+        }
+        .diff3{
+            height:100px;
+            width:150px;
+            border:2px solid green;
+            border-bottom-left-radius: 26px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 3px;
+        }
+        .diff2{
+            height:100px;
+            width:150px;
+            border:2px solid green;
+            border-radius: 50%;
+
+        }
+        .diff1{
+            height:100px;
+            width:150px;
+            border:2px solid green;
+            border-radius: 8px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <table border="1" bgcolor="cadetblue" width="100% " class="hi" >
+        <tr>
+        <th colspan="3" align="center" class="bi">Firstname</th>
+        <th colspan="3" align="center" class="bi">Lastname</th>
+        <th colspan="2" align="center"  class="bi">Age</th>
+        </tr>
+        <tr>
+            <td colspan="3" class="bi">Jill</td>
+            <td colspan="3" class="bi">Smith</td>
+            <td colspan="2" class="bi">50</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="bi">Eve</td>
+            <td colspan="3" class="bi">Jackson</td>
+            <td colspan="2" class="bi">94</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="bi">John</td>
+            <td colspan="3" class="bi">Doe</td>
+            <td colspan="2" class="bi">80</td>
+        </tr>
+        <tr>
+            <td colspan="8" align="center" class="bi">TO SHOW COLUMS ARE SPANNED PROPERLY</td>
+        </tr>
+        </table>
+        <table border="1" class="hello">
+            <tr>
+                <td class="same1"></td>
+                <td class="same1"></td>
+                <td class="same2"></td>
+            </tr>
+            <tr>
+                <td class="diff1"></td>
+                <td class="same3"></td>
+                <td class="same2"></td>
+            </tr> <tr>
+                <td class="diff2 "></td>
+                <td class="same3"></td>
+                <td class="diff3"></td>
+            </tr>
+        </table>
+</body>
+</html>
